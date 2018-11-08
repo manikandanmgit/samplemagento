@@ -1,0 +1,18 @@
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+      <head>
+        <link src="Hello_World::js/hello.js"/>
+        <css src="Hello_World::css/hello.css"/>
+        <title>Hello World</title>
+      </head>
+    <body>
+        <referenceBlock name="content">
+            <block
+                class="Hello\World\Block\HelloText"
+                template="blockContent.phtml"
+                name="helloForm"
+                />
+        </referenceBlock>
+    </body>
+</page>
